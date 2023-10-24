@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.nsei > a {
+    width: 220px;
+    height: 40px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 100vh;
+    justify-content: center;
+    padding: 0vh;
+    margin-right: 1vh;
+    margin-top: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+.nsei {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    width: 90%;
+    height: 80%;
+}
+
+.menu {
+    display: flex;
+    width: 99%;
+    height: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgb(2,0,36);
+    background: linear-gradient( rgb(129, 1, 1) 0%, rgb(139, 1, 1) 15%, rgb(177, 2, 2) 100%);
+    position:fixed;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    padding: 2vh;
+}
+
+a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+h1{
+    font-size: 6vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 30vh;
+    margin-bottom: 20vh;
+}
+
+.conteudo{
+    margin: 10%;
+}
+
+.linha{
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        background-color: #000;
+    }
+
+h2,
+h3{
+    font-size: 6vh;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4%;
+    margin-top: 4%;
+}
+.clima_ceara{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    background-color: yellow;
+    max-width: 35%;
+    border-radius: 2%;
+    padding: 0.2em;
+}
+.clima_ceara_titulo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 5%;
+}
+h4{
+    font-size: 2.5vh;
+}
+.clima_ceara_img{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+img{
+    max-width: 70%;
+    border-radius: 5%;
+}
+.ceara_txt{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin: 5%;
+}
+.cul_ceara{
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    max-width: 35%;
+    border-radius: 2%;
+    padding: 0.2%;
+    margin-top: 10%;
+    margin-left: 30%;
+}
+.cul_ceara_titulo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 5%;
+}
+.cul_ceara_img{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+.sla{
+    display: flex;
+    flex-direction: row;
+    margin: 10vh;
+}
+.to{
+    margin-top: 20%;
+}
